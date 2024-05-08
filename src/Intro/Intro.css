@@ -1,0 +1,20 @@
+.marquee {
+    margin: 5% 5%;
+    height: 70%;
+    width: 33%;
+    font-size: 30px;
+    font-weight: 900;
+    color: aliceblue;
+    line-height: 0.5;
+  }
+  .buttons {
+    margin-top: 22%;
+    display: flex;
+    justify-content: space-between;
+  }  
+  .marquee h1 {
+    font-size: larger;
+  }
+  .MG{
+    color: #F64C72;
+  }

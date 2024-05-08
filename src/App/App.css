@@ -1,0 +1,13 @@
+body{
+  background-color: #2F2FA2;
+}
+.info {
+  margin-top: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  height: 65vh;
+  width: 70vw;
+  display: flex;
+}
