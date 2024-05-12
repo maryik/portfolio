@@ -20,8 +20,8 @@ export default function Intro() {
                 }}
             />
             <div className='buttons'>
-                <Button ButtonText={'Resume'} Icon={<FaDownload className='icon'/>}/>
-                <Button ButtonText={'About'} Icon={<FaUser className='icon'/>}/>
+                <Button ButtonText={'Resume'} Icon={<FaDownload className='icon'/>} to="/resume"/>
+                <Button ButtonText={'About'} Icon={<FaUser className='icon'/>} to="/about"/>
             </div>
         </div>
     )

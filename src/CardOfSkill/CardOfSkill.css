@@ -1,0 +1,19 @@
+.card-of-skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border: #F64C72 5px solid;
+    color: #F64C72;
+}
+.icon-card{
+    font-size: 100px;
+}
+.card-of-skill:hover{
+    cursor: pointer;
+    background-color: #F64C72;
+    color: #ffffff;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
