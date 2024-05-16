@@ -1,8 +1,5 @@
 body{
     height: 200vh;
-    display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .about-text {
     position: absolute;

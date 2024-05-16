@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-route
 import Header from '../Header/Header.jsx';
 import Intro from '../Intro/Intro.jsx';
 import About from '../About/About.jsx';
+import Projects from '../Projects/Projects.jsx';
 import mainLogo from '../assets/main.svg';
 import './App.css';
 
@@ -23,8 +24,14 @@ function AppContent() {
       document.body.style.overflow = 'hidden';
       window.scrollTo(0, 0);
     }
+    else if (location.pathname === '/projects') {
+      document.body.style.overflow = 'auto';
+      document.body.style.height = '320vh';
+      window.scrollTo(0, 0);
+    }
     else{
       document.body.style.overflow = 'auto';
+      document.body.style.height = '200vh';
     }
   }, [location.pathname]);
 
@@ -46,6 +53,12 @@ function AppContent() {
             <About />
           </>
         } />
+        <Route path="/projects" element={
+          <>
+            <Header />
+            <Projects />
+          </>
+        }/>
       </Routes>
     </div>
   );

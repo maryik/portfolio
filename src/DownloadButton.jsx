@@ -1,8 +1,7 @@
 import React from 'react';
 
-export default function DownloadButton({ ButtonText, Icon, to, downloadUrl, downloadFilename }) {
+export default function DownloadButton({ ButtonText, Icon, downloadUrl, downloadFilename }) {
     const handleButtonClick = () => {
-        console.log("clicked");
         const link = document.createElement('a');
         link.href = downloadUrl;
         link.download = downloadFilename;
