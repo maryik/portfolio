@@ -4,6 +4,7 @@ import Header from '../Header/Header.jsx';
 import Intro from '../Intro/Intro.jsx';
 import About from '../About/About.jsx';
 import Projects from '../Projects/Projects.jsx';
+import ContactMe from '../ContactMe/ContactMe.jsx';
 import mainLogo from '../assets/main.svg';
 import './App.css';
 
@@ -20,8 +21,9 @@ function AppContent() {
   const [overflow, setOverflow] = useState('auto');
 
   useEffect(() => {
-    if (location.pathname === '/') {
+    if (location.pathname === '/' || location.pathname === '/contact') {
       document.body.style.overflow = 'hidden';
+      document.body.style.height = '100vh';
       window.scrollTo(0, 0);
     }
     else if (location.pathname === '/projects') {
@@ -59,6 +61,12 @@ function AppContent() {
             <Projects />
           </>
         }/>
+        <Route path="/contact" element={
+          <>
+            <Header />
+            <ContactMe />
+          </>
+        } />
       </Routes>
     </div>
   );
