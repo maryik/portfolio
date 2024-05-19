@@ -33,7 +33,7 @@ function AppContent() {
     }
     else{
       document.body.style.overflow = 'auto';
-      document.body.style.height = '200vh';
+      document.body.style.height = '220vh';
     }
   }, [location.pathname]);
 
