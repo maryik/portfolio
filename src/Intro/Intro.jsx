@@ -21,7 +21,7 @@ export default function Intro() {
                 }}
             />
             <div className='buttons'>
-                <DownloadButton ButtonText={'Resume'} Icon={<FaDownload className='icon'/>} downloadUrl={"/жирафы.txt"} downloadFilename={"жирафы.txt"}/>
+                <DownloadButton ButtonText={'Resume'} Icon={<FaDownload className='icon'/>} downloadUrl={"/Марат Гирса  - Frontend Developer - Резюме.pdf"} downloadFilename={"Марат Гирса  - Frontend Developer - Резюме.pdf"}/>
                 <Button ButtonText={'About'} Icon={<FaUser className='icon'/>} to="/about"/>
             </div>
         </div>

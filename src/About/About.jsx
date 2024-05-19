@@ -13,7 +13,7 @@ export default function About() {
       <p>I love developing beautiful <span>websites</span> that can be <span>useful</span> for people. You can view my <span>projects</span> on the "Projects" page.</p>
       <p>Every time in the <span>development</span> process I discover something new and interesting, which <span>encourages</span> me to <span>continue</span> to learn and develop.</p>
       <Footer/>
-      <DownloadButton className='button-about-resume' ButtonText={'Download Resume'} Icon={<FaDownload className='icon'/>} downloadUrl={"/жирафы.txt"} downloadFilename={"жирафы.txt"}/>
+      <DownloadButton className='button-about-resume' ButtonText={'Download Resume'} Icon={<FaDownload className='icon'/>} downloadUrl={"/Марат Гирса  - Frontend Developer - Резюме.pdf"} downloadFilename={"Марат Гирса  - Frontend Developer - Резюме.pdf"}/>
       <div className='about-skills'>
         <h1>Skillset</h1>
         <div className='about-skills-card'>
