@@ -28,7 +28,7 @@ function AppContent() {
     }
     else if (location.pathname === '/projects') {
       document.body.style.overflow = 'auto';
-      document.body.style.height = '320vh';
+      document.body.style.height = '420vh';
       window.scrollTo(0, 0);
     }
     else{
